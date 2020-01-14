@@ -35,5 +35,6 @@ cor(x, y)
 # 3.) plot data
 
 plot(x,y)
+abline(lm(x ~ y))
 
 
