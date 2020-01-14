@@ -38,3 +38,12 @@ plot(x,y)
 abline(lm(x ~ y))
 
 
+#alternative plot-Version
+library(tidyverse)
+daten <- data.frame(data)
+
+ggplot(daten, aes(x = X1, y = X2)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+
+            
