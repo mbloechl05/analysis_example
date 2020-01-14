@@ -13,7 +13,6 @@
 # install.packages(MASS) 
 library("MASS")
 
-
 # 1.) simulate data
 
 samples = 100 # number of samples to draw
@@ -34,6 +33,6 @@ cor(x, y)
 
 # 3.) plot data
 
-plot(x,y)
+plot(x,y, col = "green")
 
 
