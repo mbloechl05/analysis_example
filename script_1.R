@@ -19,6 +19,7 @@ library("MASS")
 samples = 100 # number of samples to draw
 r = 0.7 # pre-specified correlation coefficient
 
+
 data = mvrnorm(n=samples, mu=c(0, 0), # draw # of samples from multivar norm distribution
                Sigma=matrix(c(1, r, r, 1), nrow=2), # specifiy correlation matrix
                empirical=TRUE) 
