@@ -37,3 +37,6 @@ cor(x, y)
 plot(x,y)
 
 
+# 4.) another fancy analysis
+
+
